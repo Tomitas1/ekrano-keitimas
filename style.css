@@ -1,0 +1,81 @@
+*{  
+ margin:0;
+}
+.feature1{
+    background-color: yellow;
+    width: 50%;
+    height:100px;
+    display:inline-block;
+    text-align: center;
+}
+.feature2{
+    background-color: lightgreen;
+    width: 50%;
+    height:100px;
+    position:relative;
+    float:right;
+    text-align: center;
+}
+.grid1{
+    background-color: brown;
+    float:left;
+    width:32%;
+    height:100px;
+    text-align: center;
+}
+.grid2{
+    background-color: darkred;
+    width:35%;
+    height:100px;
+    float:left;
+    text-align: center;
+}
+.grid3{
+    background-color: rgb(157, 70, 70);
+    width: 33%;
+    height:100px;
+    float: right;
+    text-align: center;
+}
+@media all and (max-width: 768px){
+    *{
+        margin:0;
+        padding:0;
+    }
+    .feature1{
+        background-color: yellow;
+        height:100px;
+        width:100%;
+        margin:0 auto;
+        text-align: center;
+    }
+    .feature2{
+        background-color: lightgreen;
+        height:100px;
+        width:100%;
+        margin:0 auto;
+        text-align: center;
+    }
+    .grid1{
+        background-color: brown;
+        height:100px;
+        width:100%;
+        margin:0 auto;
+        text-align: center;
+    }
+    .grid2{
+        background-color: darkred;
+        height:100px;
+        width:100%;
+        margin-left:0;
+        margin:0 auto;
+        text-align: center;;
+    }
+    .grid3{
+        background-color: rgb(157, 70, 70);
+        height:100px;
+        width:100%;
+        margin:0 auto;
+        text-align: center;
+    }
+}
